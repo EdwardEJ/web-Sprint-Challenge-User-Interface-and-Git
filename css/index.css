@@ -121,9 +121,16 @@ p {
 }
 
 .middle-content.about {
+  border-bottom: none;
   display: flex;
-  margin: 20px 0;
-  padding: 20px;
+  flex-wrap: wrap;
+  line-height: 2;
+}
+
+.middle-content.about .text-container {
+  width: 45%;
+  margin: 5% 2%;
+  border-bottom: 1px dashed black;
 }
 
 .middle-content .boxes {
@@ -149,6 +156,7 @@ button {
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 1rem;
+  margin: 5% 0;
 }
 
 .boxes .box:nth-child(1) {
@@ -203,6 +211,10 @@ button {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content.about {
+  margin-bottom: 8%;
 }
 
 footer {
