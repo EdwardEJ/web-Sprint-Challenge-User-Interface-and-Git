@@ -102,6 +102,10 @@ p {
     padding-bottom: 20px;  
 }
 
+.text-container.about {
+  width: 100%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -110,6 +114,16 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content.about h2 {
+  padding: 0;
+}
+
+.middle-content.about {
+  display: flex;
+  margin: 20px 0;
+  padding: 20px;
 }
 
 .middle-content .boxes {
@@ -127,6 +141,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button {
+  background: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
 }
 
 .boxes .box:nth-child(1) {
