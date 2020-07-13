@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -97,7 +98,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -124,12 +125,13 @@ p {
   border-bottom: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   line-height: 2;
 }
 
 .middle-content.about .text-container {
-  width: 45%;
-  margin: 5% 2%;
+  width: 47%;
+  margin: 5% 0;
   border-bottom: 1px dashed black;
 }
 
